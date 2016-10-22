@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.francisco.practica2.MainActivity">
+
+    <TextView
+        android:id="@+id/txtV1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Ingresa el capital"
+        />
+    <EditText
+        android:id="@+id/edtxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa aqui el capital"
+        android:ems="15"/>
+    <TextView
+        android:id="@+id/txtV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa la tasa"
+        />
+    <EditText
+        android:id="@+id/edtxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa aqui la tasa"
+        android:ems="15"/>
+    <TextView
+        android:id="@+id/txtV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero de periodos
+        "/>
+    <EditText
+        android:id="@+id/edtxt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el numero de periodos"
+        android:ems="15"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Interes"/>
+    <TextView
+        android:id="@+id/txtV4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/txtV5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
